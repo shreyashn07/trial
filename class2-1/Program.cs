@@ -6,7 +6,12 @@ namespace class21
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("How many years of professional experinece?");
+            int var = int.Parse(Console.ReadLine());
+            for (int i = 0; i < var; i++)
+            {
+                Console.WriteLine("you have {0} years of experience",i);
+            }
         }
     }
 }
